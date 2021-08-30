@@ -1,2 +1,10 @@
+<<<<<<< HEAD
 build/*.js
 config/*.js
+=======
+/build/
+/config/
+/dist/
+/*.js
+/test/unit/coverage/
+>>>>>>> c2d1c1a (https://github.com/AinJohan/tab-tracker.git)

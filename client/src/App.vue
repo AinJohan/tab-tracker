@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+<<<<<<< HEAD
     <v-app>
       <page-header />
       
@@ -9,10 +10,15 @@
         </v-container>
       </main>
     </v-app>
+=======
+    <img src="./assets/logo.png">
+    <router-view/>
+>>>>>>> c2d1c1a (https://github.com/AinJohan/tab-tracker.git)
   </div>
 </template>
 
 <script>
+<<<<<<< HEAD
 import PageHeader from '@/components/Header.vue'
 
 export default {
@@ -20,6 +26,10 @@ export default {
   components: {
     PageHeader
   }
+=======
+export default {
+  name: 'App'
+>>>>>>> c2d1c1a (https://github.com/AinJohan/tab-tracker.git)
 }
 </script>
 
@@ -32,8 +42,11 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+<<<<<<< HEAD
 
 .danger-alert {
   color: red;
 }
+=======
+>>>>>>> c2d1c1a (https://github.com/AinJohan/tab-tracker.git)
 </style>

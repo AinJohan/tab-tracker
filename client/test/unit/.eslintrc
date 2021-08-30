@@ -1,9 +1,16 @@
 {
+<<<<<<< HEAD
   "env": {
     "mocha": true
   },
   "globals": {
     "expect": true,
     "sinon": true
+=======
+  "env": { 
+    "jest": true
+  },
+  "globals": { 
+>>>>>>> c2d1c1a (https://github.com/AinJohan/tab-tracker.git)
   }
 }

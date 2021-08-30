@@ -1,17 +1,22 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+<<<<<<< HEAD
 import Register from '@/components/Register'
 import Login from '@/components/Login'
 import Songs from '@/components/Songs/Index'
 import CreateSong from '@/components/CreateSong'
 import EditSong from '@/components/EditSong'
 import ViewSong from '@/components/ViewSong/Index'
+=======
+import HelloWorld from '@/components/HelloWorld'
+>>>>>>> c2d1c1a (https://github.com/AinJohan/tab-tracker.git)
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
     {
+<<<<<<< HEAD
       path: '/register',
       name: 'register',
       component: Register
@@ -44,6 +49,11 @@ export default new Router({
     {
       path: '*',
       redirect: 'songs'
+=======
+      path: '/',
+      name: 'HelloWorld',
+      component: HelloWorld
+>>>>>>> c2d1c1a (https://github.com/AinJohan/tab-tracker.git)
     }
   ]
 })

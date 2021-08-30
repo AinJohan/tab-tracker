@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+<<<<<<< HEAD
 import Vuetify from 'vuetify'
 import { sync } from 'vuex-router-sync'
 import 'vuetify/dist/vuetify.min.css'
@@ -19,11 +20,21 @@ Vue.component('panel', Panel)
 
 sync(store, router)
 
+=======
+
+Vue.config.productionTip = false
+
+>>>>>>> c2d1c1a (https://github.com/AinJohan/tab-tracker.git)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
+<<<<<<< HEAD
   store,
   template: '<App/>',
   components: { App }
+=======
+  components: { App },
+  template: '<App/>'
+>>>>>>> c2d1c1a (https://github.com/AinJohan/tab-tracker.git)
 })

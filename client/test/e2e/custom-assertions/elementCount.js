@@ -1,4 +1,5 @@
 // A custom Nightwatch assertion.
+<<<<<<< HEAD
 // the name of the method is the filename.
 // can be used in tests like this:
 //
@@ -6,6 +7,16 @@
 //
 // for how to write custom assertions see
 // http://nightwatchjs.org/guide#writing-custom-assertions
+=======
+// The assertion name is the filename.
+// Example usage:
+//
+//   browser.assert.elementCount(selector, count)
+//
+// For more information on custom assertions see:
+// http://nightwatchjs.org/guide#writing-custom-assertions
+
+>>>>>>> c2d1c1a (https://github.com/AinJohan/tab-tracker.git)
 exports.assertion = function (selector, count) {
   this.message = 'Testing if element <' + selector + '> has count: ' + count
   this.expected = count

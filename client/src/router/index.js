@@ -1,5 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+// import Hello from '@/components/Hello'
+// import Register from '@/componenets/Register'
 <<<<<<< HEAD
 import Register from '@/components/Register'
 import Login from '@/components/Login'
